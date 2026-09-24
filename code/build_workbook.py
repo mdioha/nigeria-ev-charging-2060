@@ -178,7 +178,7 @@ for y in range(2025, 2061):
     lp[f'{c}47'] = f'=(({E("D",1)}*(1-Assumptions!$D$7)+{E("E",2)}*(1-Assumptions!$D$8))*0.4)/{tot}'
     lp[f'{c}48'] = f'=({E("F",3)}+{E("G",4)}+{E("H",5)})/{tot}'
     lp[f'{c}49'] = f'={E("C",0)}*(1-Assumptions!$D$6)*Assumptions!$B$89/Assumptions!$B$6/{tot}'
-    for h in range(24): lp[f'{c}{50+h}'] = f'=SUMPRODUCT($B${5+h}:$F${5+h},TRANSPOSE({c}$45:{c}$49))'
+    for h in range(24): lp[f'{c}{50+h}'] = f'=$B{5+h}*{c}$45+$C{5+h}*{c}$46+$D{5+h}*{c}$47+$E{5+h}*{c}$48+$F{5+h}*{c}$49'   # plain formula: no array functions, evaluates in Excel and LibreOffice
     lp[f'{c}75'] = f'=AVERAGE({c}50:{c}73)/MAX({c}50:{c}73)'
 def lf_ref(y): return f"'Load profile'!{L(10 + y - 2025)}75"                  # per-year load factor
 
