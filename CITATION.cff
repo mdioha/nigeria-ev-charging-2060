@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Electric Vehicle Charging Infrastructure Requirements for Nigeria to 2060 - model, data and code"
+message: "If you use this software or data, please cite the associated article."
+type: software
+authors:
+  - family-names: Dioha
+    given-names: Michael O.
+  - family-names: Dioha
+    given-names: Ifeabunike J.
+  - family-names: Poddar
+    given-names: Anushree
+license: MIT
+repository-code: "https://github.com/USERNAME/REPONAME"

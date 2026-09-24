@@ -1,0 +1,6 @@
+python==3.12.3
+numpy==2.4.4
+openpyxl==3.1.5
+scipy==1.17.1
+matplotlib==3.10.8
+# LibreOffice (recalculation): LibreOffice 24.2.7.2 420(Build:2)

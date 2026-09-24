@@ -1,0 +1,75 @@
+parameter,workbook_cell,value,unit,type,source,locator,transformation_or_note
+"Annual VKT, motorcycle/tricycle class",Assumptions!B6,"16,296",km/yr,derived,Cervigni et al. (2013),Table 21.5,"0.5 x 7,659 (private) + 0.5 x 24,933 (commercial tricycle); weights = home-charge share"
+"Annual VKT, Private car",Assumptions!B7,32500,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,use-weighted average of survey categories (Section 3.3); rounded
+"Annual VKT, LCV",Assumptions!B8,20600,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,use-weighted average of survey categories (Section 3.3); rounded
+"Annual VKT, HGV",Assumptions!B9,33700,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,use-weighted average of survey categories (Section 3.3); rounded
+"Annual VKT, Light bus",Assumptions!B10,21400,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,use-weighted average of survey categories (Section 3.3); rounded
+"Annual VKT, Coach",Assumptions!B11,33200,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,use-weighted average of survey categories (Section 3.3); rounded
+"Battery-side energy intensity, Motorcycle",Assumptions!C6,0.03,kWh/km,author assumption informed by literature (exact value not located in source),IEA (2024); ICCT (2024); Yuksel and Michalek (2015); Lajunen and Tammi (2017); Xu et al. (2023),not located to a table,global benchmark with warm-climate adjustment; author judgement
+"Battery-side energy intensity, Private car",Assumptions!C7,0.17,kWh/km,author assumption informed by literature (exact value not located in source),IEA (2024); ICCT (2024); Yuksel and Michalek (2015); Lajunen and Tammi (2017); Xu et al. (2023),not located to a table,global benchmark with warm-climate adjustment; author judgement
+"Battery-side energy intensity, LCV",Assumptions!C8,0.22,kWh/km,author assumption informed by literature (exact value not located in source),IEA (2024); ICCT (2024); Yuksel and Michalek (2015); Lajunen and Tammi (2017); Xu et al. (2023),not located to a table,global benchmark with warm-climate adjustment; author judgement
+"Battery-side energy intensity, HGV",Assumptions!C9,1.3,kWh/km,author assumption informed by literature (exact value not located in source),IEA (2024); ICCT (2024); Yuksel and Michalek (2015); Lajunen and Tammi (2017); Xu et al. (2023),not located to a table,global benchmark with warm-climate adjustment; author judgement
+"Battery-side energy intensity, Light bus",Assumptions!C10,0.7,kWh/km,author assumption informed by literature (exact value not located in source),IEA (2024); ICCT (2024); Yuksel and Michalek (2015); Lajunen and Tammi (2017); Xu et al. (2023),not located to a table,global benchmark with warm-climate adjustment; author judgement
+"Battery-side energy intensity, Coach",Assumptions!C11,1.5,kWh/km,author assumption informed by literature (exact value not located in source),IEA (2024); ICCT (2024); Yuksel and Michalek (2015); Lajunen and Tammi (2017); Xu et al. (2023),not located to a table,global benchmark with warm-climate adjustment; author judgement
+"Home-charge share, Motorcycle",Assumptions!D6,0.5,share,author assumption,Author (housing typology); no Nigerian survey located,n/a,varied +/-50% in Section 4
+"Home-charge share, Private car",Assumptions!D7,0.4,share,author assumption,Author (housing typology); no Nigerian survey located,n/a,varied +/-50% in Section 4
+"Home-charge share, LCV",Assumptions!D8,0.3,share,author assumption,Author (housing typology); no Nigerian survey located,n/a,varied +/-50% in Section 4
+"Home-charge share, HGV",Assumptions!D9,0,share,author assumption informed by literature (exact value not located in source),Author; IEA (2024) for depot-only heavy-duty charging,n/a,varied +/-50% in Section 4
+"Home-charge share, Light bus",Assumptions!D10,0,share,author assumption informed by literature (exact value not located in source),Author; IEA (2024) for depot-only heavy-duty charging,n/a,varied +/-50% in Section 4
+"Home-charge share, Coach",Assumptions!D11,0,share,author assumption informed by literature (exact value not located in source),Author; IEA (2024) for depot-only heavy-duty charging,n/a,varied +/-50% in Section 4
+"Logistic t50 / k, Motorcycle",Assumptions!B16:C16,2046.1 / 0.279,year / 1/yr,author assumption,Author calibration; targets informed by FGN (2022) and RMI (2024),n/a,"solved for <1% stock share in 2025, ~60% in 2050, near-complete in 2060"
+"Logistic t50 / k, Private car",Assumptions!B17:C17,2048.4 / 0.254,year / 1/yr,author assumption,Author calibration; targets informed by FGN (2022) and RMI (2024),n/a,"solved for <1% stock share in 2025, ~60% in 2050, near-complete in 2060"
+"Logistic t50 / k, LCV",Assumptions!B18:C18,2049.1 / 0.224,year / 1/yr,author assumption,Author calibration; targets informed by FGN (2022) and RMI (2024),n/a,"solved for <1% stock share in 2025, ~60% in 2050, near-complete in 2060"
+"Logistic t50 / k, HGV",Assumptions!B19:C19,2053.1 / 0.201,year / 1/yr,author assumption,Author calibration; targets informed by FGN (2022) and RMI (2024),n/a,"solved for <1% stock share in 2025, ~60% in 2050, near-complete in 2060"
+"Logistic t50 / k, Light bus",Assumptions!B20:C20,2047.3 / 0.233,year / 1/yr,author assumption,Author calibration; targets informed by FGN (2022) and RMI (2024),n/a,"solved for <1% stock share in 2025, ~60% in 2050, near-complete in 2060"
+"Logistic t50 / k, Coach",Assumptions!B21:C21,2050 / 0.22,year / 1/yr,author assumption,Author calibration; targets informed by FGN (2022) and RMI (2024),n/a,"solved for <1% stock share in 2025, ~60% in 2050, near-complete in 2060"
+EVs per home Level 2 charger,Assumptions!B26,1.2,EVs per unit,author assumption,Author,n/a,
+EVs per public AC charger,Assumptions!B27,12,EVs per unit,author assumption informed by literature (exact value not located in source),Hall and Lutsey (2020); EU AFID benchmark ~10,"observed range 4-39 (Hall and Lutsey, 2020)",
+EVs per public DC fast charger,Assumptions!B28,60,EVs per unit,author assumption informed by literature (exact value not located in source),Early-market benchmark (Section 3.3),not located to a table,DC ratio varied +/-50%
+Heavy-duty vehicles per depot port,Assumptions!B29,2.5,EVs per unit,author assumption,Author,n/a,
+Commercial e-motorcycles per swap station,Assumptions!B30,250,EVs per unit,author assumption informed by literature (exact value not located in source),"Ampersand/Spiro operating reports (Kuhudzai, 2025; Spiro, 2025)",not located as a ratio,
+"CAPEX per unit, Home Level 2",Assumptions!B35,1500,USD 2025 per port/station,author assumption informed by literature (exact value not located in source),"Pierce and Slowik (2023, 2024); Wood et al. (2023); Nicholas (2019); Kohli (2024b)",not located to a table,all-in installed cost; varied +/-30%
+"Rated power, Home Level 2",Assumptions!C35,7.4,kW,author assumption informed by literature (exact value not located in source),"Typical product ratings (IEA, 2024)",n/a,
+"Within-category diversity factor, Home Level 2",Assumptions!D35,0.2,share at system peak,author assumption,Author,n/a,
+"CAPEX per unit, Public AC",Assumptions!B36,5500,USD 2025 per port/station,author assumption informed by literature (exact value not located in source),"Pierce and Slowik (2023, 2024); Wood et al. (2023); Nicholas (2019); Kohli (2024b)",not located to a table,all-in installed cost; varied +/-30%
+"Rated power, Public AC",Assumptions!C36,22,kW,author assumption informed by literature (exact value not located in source),"Typical product ratings (IEA, 2024)",n/a,
+"Within-category diversity factor, Public AC",Assumptions!D36,0.3,share at system peak,author assumption,Author,n/a,
+"CAPEX per unit, Public DC fast",Assumptions!B37,55000,USD 2025 per port/station,author assumption informed by literature (exact value not located in source),"Pierce and Slowik (2023, 2024); Wood et al. (2023); Nicholas (2019); Kohli (2024b)",not located to a table,all-in installed cost; varied +/-30%
+"Rated power, Public DC fast",Assumptions!C37,100,kW,author assumption informed by literature (exact value not located in source),"Typical product ratings (IEA, 2024)",n/a,
+"Within-category diversity factor, Public DC fast",Assumptions!D37,0.4,share at system peak,author assumption,Author,n/a,
+"CAPEX per unit, Depot heavy-duty",Assumptions!B38,85000,USD 2025 per port/station,author assumption informed by literature (exact value not located in source),"Pierce and Slowik (2023, 2024); Wood et al. (2023); Nicholas (2019); Kohli (2024b)",not located to a table,all-in installed cost; varied +/-30%
+"Rated power, Depot heavy-duty",Assumptions!C38,250,kW,author assumption informed by literature (exact value not located in source),"Typical product ratings (IEA, 2024)",n/a,
+"Within-category diversity factor, Depot heavy-duty",Assumptions!D38,0.6,share at system peak,author assumption,Author,n/a,
+"CAPEX per unit, Battery-swap station",Assumptions!B39,350000,USD 2025 per port/station,author assumption informed by literature (exact value not located in source),"Pierce and Slowik (2023, 2024); Wood et al. (2023); Nicholas (2019); Kohli (2024b)",not located to a table,all-in installed cost; varied +/-30%
+"Rated power, Battery-swap station",Assumptions!C39,200,kW,author assumption informed by literature (exact value not located in source),"Typical product ratings (IEA, 2024)",n/a,
+"Within-category diversity factor, Battery-swap station",Assumptions!D39,0.5,share at system peak,author assumption,Author,n/a,
+Grid-upgrade cost,Assumptions!B43,450,USD per kW of new EV peak,author assumption informed by literature (exact value not located in source),E3 (2021); ICCT (2023),"USD 483/kW primary + USD 18/kW secondary (ICCT, 2023, citing E3)",rounded down; varied +/-50%
+GDP per capita 2024 (and 2010-2024 history),Assumptions!B46; GDP and population path!B5:B19,"2,348.9",constant 2015 US$,observed data,World Bank WDI GDP (NY.GDP.MKTP.KD) / UN WPP 2024 population (1 Jan),raw_data/macro_inputs_NGA.csv,GDP divided by 1-January population
+Real GDP per capita growth 2024-2060,Assumptions!B47,0.025,per year,author assumption,Author; IMF (2025) medium-term ~1.3% for comparison,n/a,stylised; the source file's 5%/yr total-GDP path (about 3.4%/yr per capita) is reported as a sensitivity
+Population 2010-2060,Assumptions!B48; GDP and population path!C5:C55,397.9 (2060),"million persons, 1 January",observed data / projection,UN WPP 2024 medium variant,raw_data/macro_inputs_NGA.csv,none
+Level 1 (Mode 2 socket) share of car/LCV home charging,Assumptions!B51,0.7,share,author assumption informed by literature (exact value not located in source),IEA (2024): socket charging most common in 220-240 V markets (qualitative),n/a,
+EVs per Level 1 socket,Assumptions!B52,1,EVs per socket,author assumption,Author,n/a,
+Level 1 CAPEX,Assumptions!B53,200,USD per socket incl. Mode 2 cable,author assumption informed by literature (exact value not located in source),"IEA (2024): dedicated home charger ""several hundred USD""",n/a,socket assumed below dedicated charger cost
+Level 1 rated power,Assumptions!B54,2.3,kW,literature value (located),IEA (2024),Level 1 about 1-2.3 kW,
+Level 1 diversity factor,Assumptions!B55,0.3,share,author assumption,Author,n/a,
+Motorcycle home charging on sockets,Assumptions!B56,1,share,author assumption,Author; IEA (2024) small batteries charge overnight on sockets,n/a,
+Generation-side gross-up kappa,Assumptions!B59,1.2,multiplier,author assumption,Author (network losses and delivery-risk margin),n/a,Eqn. 4
+Load factor LF,Assumptions!B60,0.61 (formula),mean/peak,derived,Load profile sheet (stylised hourly profiles); Lukuyu et al. (2024) for context,n/a,hourly segment shares are author stylisations
+Charging-loss uplift lambda,Assumptions!B61,1.09,multiplier,author assumption informed by literature (exact value not located in source),ICCT (2024); Mesek (2017); Sevdari et al. (2023),order of magnitude only,uniform across classes
+Intercategory coincidence factor,Assumptions!B62,0.9,share,author assumption,Author,n/a,tested 0.90-1.00
+V2G enrolment share,Assumptions!B64,0.1,share of LDV EVs,author assumption,Author,n/a,
+V2G availability factor,Assumptions!B65,0.3,share,author assumption informed by literature (exact value not located in source),Dioha et al. (2022a),sensitivity range 10-70% of parked grid-connected vehicles,value chosen within range
+Bidirectional charger power,Assumptions!B66,7,kW,author assumption,Author (typical residential unit),n/a,
+Energy per swap,Assumptions!B69,3.24,kWh,literature value (located),InsightEV (2025),Ampersand LFP pack size,used only in throughput check
+Station operating days,Assumptions!B71,365,days/yr,author assumption,Author,n/a,
+Max equivalent swaps per station per day,Assumptions!B72,900,swaps/day,author assumption,Author,n/a,throughput check only
+Max annual utilisation: L1 / L2 / AC / DC / depot,Assumptions!B75:B79,0.35 / 0.30 / 0.25 / 0.30 / 0.40,share of hours,author assumption,Author,n/a,throughput check only
+Private-car stock displaced by buses (composition test),Assumptions!B82,0.1,share,author assumption,Author,n/a,sensitivity only
+Cars replaced per bus,Assumptions!B83,16,cars per bus,derived,Author,n/a,40 seats x 60% load / 1.5 occupants per car
+Income elasticity (Scenario C terminal rate),Assumptions!B85,0.9,elasticity,author assumption informed by literature (exact value not located in source),Dargay et al. (2007),n/a,
+Private-duty motorcycle VKT,Assumptions!B88,7659,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,
+Commercial-duty (tricycle) VKT,Assumptions!B89,24933,km/yr,literature value (located),Cervigni et al. (2013),Table 21.5,
+Complete-electrification switch,Assumptions!B92,0,0/1,model switch,n/a,n/a,1 = normalise class S-curves to 100% in 2060
+Gompertz saturation gamma,'Gompertz fit'!B13,300,"vehicles per 1,000",author assumption informed by literature (exact value not located in source),Dargay et al. (2007) 850 high-income asymptote; Huo and Wang (2012); OICA (2023),n/a,varied +/-25% with refit
+Fleet class shares,'Fleet projections' row 72,39.7/46.5/8.1/5.5/0.08/0.08 %,share,literature value (located),Cervigni et al. (2013),Table 22.4 (2035),normalised to sum to 1
+Hourly charging profiles (5 segments x 24 h),'Load profile'!B5:F28,see sheet,share of daily energy,author assumption,Author stylisation informed by Lukuyu et al. (2024),n/a,
