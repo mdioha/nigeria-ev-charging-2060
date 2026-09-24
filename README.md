@@ -1,4 +1,4 @@
-# Electric Vehicle Charging Infrastructure Requirements for Nigeria to 2060 — model, data and code
+# Electric Vehicle Charging Infrastructure Requirements for Nigeria to 2060: model, data and code
 
 Code and data for the paper *Electric Vehicle Charging Infrastructure Requirements for Nigeria to 2060*
 (*Utilities Policy*). The supplementary Excel workbook, the Monte Carlo analysis and every
