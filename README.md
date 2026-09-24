@@ -1,7 +1,7 @@
 # Electric Vehicle Charging Infrastructure Requirements for Nigeria to 2060 — model, data and code
 
 Code and data for the paper *Electric Vehicle Charging Infrastructure Requirements for Nigeria to 2060*
-(manuscript JUIP-D-26-01375, *Utilities Policy*). The supplementary Excel workbook, the Monte Carlo analysis and every
+(*Utilities Policy*). The supplementary Excel workbook, the Monte Carlo analysis and every
 figure in the paper can be regenerated from this repository.
 
 ## What is here
